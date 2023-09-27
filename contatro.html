@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contatos - Cz's mesas</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <!--<link rel="website icon" type="png" href="icon.png">-->
+    <link rel="stylesheet" href="contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Aqui começa meu cabeçalho-->
+    <header>
+        <div class="caixa">
+            <h1><img src="logo mesa.png" alt="logo cz's mesas" class="logo-principal"></h1>
+
+            <nav>
+                <ul>
+                    <li class="li-principal"><a href="index.html" class="link-principal">Home</a></li>
+                    <li class="li-principal"><a href="Produtos.html" class="link-principal">Produtos</a></li>
+                    <li class="li-principal"><a href="contatro.html" class="link-principal">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!--Aqui termina meu cabeçalho-->
+    <!--Aqui começa meu formulário-->
+    <main>
+        <form class="caixa-form">
+            <section class="dados-pessoais">
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="Seuemail@gmail.com">
+
+                <label for="telefone">telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(55)14*********">
+
+                <label for="mensagem">mensagem</label>
+                <textarea id="mensagem" rows="10" cols="50" class="input-padrao" required placeholder="Deixe sua mensagem"></textarea>
+            </section>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" >telefone</label>
+
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"checked>whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual o horario prefere ser atendido</legend>
+                <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </fieldset>
+            <section class="dados-pessoais">
+                <label><input type="checkbox" class="checkbox" checked> gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </section>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <!--Aqui termina meu formulário-->
+    <!--Aqui começa meu rodapé-->
+    <footer>
+        <img src="logo mesa.png" alt="logo do cz's mesas" class="imagem-rodape">
+        <p class="copyright">&copy; Copyright CZ'S Mesas - 2023</p>
+    </footer>
+    <!--Aqui termina meu rodapé-->
+</body>
+
+</html>

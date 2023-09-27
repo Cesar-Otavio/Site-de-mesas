@@ -1,0 +1,182 @@
+        /*Aqui começa meu cabeçalho*/
+        
+        html {
+            font-size: 16px;
+        }
+        
+        header {
+            background-color: #896f5a;
+            padding: 20px 0;
+        }
+        
+        .caixa {
+            min-width: 20%;
+            max-width: 75%;
+            margin: auto;
+            position: relative;
+        }
+        
+        .logo-principal {
+            position: relative;
+            width: 18%;
+        }
+        
+        nav {
+            position: absolute;
+            top: 100px;
+            right: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-left: 25px;
+        }
+        
+        nav a {
+            text-transform: uppercase;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.56rem;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        nav a:hover {
+            background-color: #735f4d;
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+        }
+        /*Aqui termina meu cabeçalho*/
+        
+        .titulo-p {
+            padding-left: 30px;
+            font-size: 2.81rem;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .banner {
+            width: 100%;
+        }
+        
+        .principal {
+            padding: 30px;
+            width: 1200px;
+            margin: auto;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin: 0 auto 20px;
+            text-align: center;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .utensilios {
+            width: 150px;
+            float: left;
+            margin-right: 0px;
+        }
+        
+        .paragrafo-p {
+            font-size: 1.56rem;
+            margin-bottom: 10px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .strg {
+            color: #000;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        p em strong {
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        em {
+            color: rgb(0, 0, 0);
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .beneficios {
+            margin: 0 20px 20px 0;
+            clear: left;
+            text-align: center;
+            font-size: 2.5rem;
+            padding: 20px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .conteudo-beneficios {
+            width: 640px;
+            margin: 0 auto;
+        }
+        
+        .lista-ul {
+            width: 40%;
+            font-size: 1.56rem;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 90px;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .lista-li {
+            padding: 10px;
+        }
+        
+        .lista-li::before {
+            content: "—";
+        }
+        
+        .lista-li:first-child {
+            font-weight: bold;
+        }
+        
+        .img-beneficios {
+            width: 45%;
+        }
+        /*Aqui começa meu rodapé*/
+        
+        footer {
+            text-align: center;
+            background-color: #896f5a;
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .imagem-rodape {
+            width: 140px;
+        }
+        
+        .copyright {
+            color: white;
+            padding-bottom: 30px;
+            font-size: 1.25rem;
+        }
+        
+        @media screen and (max-width:940px) {
+            .caixa,
+            .principal,
+            .conteudo-beneficios {
+                width: auto;
+            }
+            nav {
+                position: static;
+                text-align: center;
+            }
+            .logo-principal {
+                width: auto;
+            }
+            .banner {
+                height: 100%;
+            }
+            .lista-ul {
+                display: block;
+                width: auto;
+                text-align: center;
+            }
+            .img-beneficios {
+                width: 80%;
+                margin: 0 auto 20px;
+                display: block;
+            }
+        }

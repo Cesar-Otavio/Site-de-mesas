@@ -1,0 +1,190 @@
+/*Aqui começa meu cabeçalho*/
+
+header {
+    background-color: #896f5a;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    margin: auto;
+    position: relative;
+}
+
+.logo-principal {
+    width: 200px;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding: 10px;
+    background-color: #735f4d;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+/*Aqui termina meu cabeçalho*/
+
+
+/*Aqui começa meu main*/
+
+
+/*Começo da lista mesas de escritório*/
+
+.titulo-main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    width: 940px;
+    margin: 20px auto 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.titulo-main2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 940px;
+    margin: 20px auto 0;
+    color: gray;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos li:hover {
+    transition: 1s;
+    box-shadow: -1px -1px 10px #0000003d;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.mesa-escritorio {
+    width: 222px;
+    height: 222px;
+}
+
+.produtos h2 {
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.produtos-preco {
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    color: rgb(37, 37, 113);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.span-preco {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.sub-titulo {
+    margin-top: 5px;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.sub-titulo strong {
+    color: rgb(15, 142, 15);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*Final da lista de mesas de escritório*/
+
+
+/*Aqui termina meu main*/
+
+footer {
+    text-align: center;
+    background-color: #896f5a;
+}
+
+.imagem-rodape {
+    width: 140px;
+}
+
+.copyright {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (min-width:360px) and (max-width:940px) {
+    .caixa,
+    .produtos {
+        width: auto;
+    }
+    .logo-principal {
+        width: auto;
+        margin-left: 15%;
+    }
+    .titulo-main,
+    .titulo-main2 {
+        width: auto;
+        text-align: center;
+    }
+    nav {
+        position: static;
+        text-align: center;
+    }
+    main img {
+        width: auto;
+        margin: auto;
+    }
+    .produtos li {
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .produtos p {
+        margin: auto;
+        text-align: center;
+    }
+}

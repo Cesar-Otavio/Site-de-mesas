@@ -1,0 +1,164 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*Aqui começa meu cabeçalho*/
+
+header {
+    background-color: #896f5a;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    margin: auto;
+    position: relative;
+}
+
+.logo-principal {
+    width: 200px;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+/*Aqui termina meu cabeçalho*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa-form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 25px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #896f5a;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 1px 2px 10px black;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #d6ae8d;
+    color: #050505;
+    transition: 0.4s;
+}
+
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background-color: #896f5a;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px 35px;
+}
+
+
+/*Aqui começa meu rodapé*/
+
+footer {
+    text-align: center;
+    background-color: #896f5a;
+}
+
+.imagem-rodape {
+    width: 140px;
+}
+
+.copyright {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (min-width:360px) and (max-width:940px) {
+    .caixa,
+    main {
+        width: auto;
+        margin: auto;
+    }
+    nav {
+        position: static;
+        text-align: center;
+    }
+    .logo-principal {
+        margin-left: 15%;
+        width: auto;
+    }
+    .dados-pessoais {
+        text-align: center;
+    }
+    .dados-pessoais input {
+        margin: auto;
+    }
+    .dados-pessoais textarea {
+        margin: auto;
+    }
+    .dados-pessoais label {
+        margin-top: 10px;
+    }
+    fieldset {
+        margin-top: 10px;
+        text-align: center;
+    }
+    table {
+        margin: 10px auto;
+    }
+}
